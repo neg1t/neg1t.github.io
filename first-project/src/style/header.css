@@ -1,0 +1,136 @@
+.form-1, .form-2 {
+    position: fixed;
+    top: 10%;
+    left: 10%;
+    width: 80%;
+    height: 50vh;
+    min-height: 500px;
+    background-image: linear-gradient(13deg, #ff8f5a 0%, #ff2f96 99%, #ff2f96 100%);
+    box-shadow: 0px 0px 12px 5px #ff2f9680;
+    color: #000;
+    display: block;
+    margin: 0 auto;
+    opacity: 0;
+    visibility: hidden;
+    transition: opacity 0.3s, visibility 0.3s;
+    z-index: 999999;
+}
+.call-back, .call-back-2 {
+    margin-top: 8%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.name__label, .phone__label, .email__label {
+    display: block;
+    font-size: 22px;
+    color: #fff;
+}
+.name__input, .phone__input, .email__input {
+    padding-left: 15px;
+    padding-top: -10px;
+    height: 40px;
+    border: none;
+    border-radius: 10px;
+}
+.name__input::placeholder, .phone__input::placeholder, .email__input::placeholder {
+    font-size: 15px;
+}
+.form_open {
+    opacity: 1;
+    visibility: visible;
+    transition: opacity 0.3s, visibility 0.3s;
+}
+.call-me {
+    margin-top: 60px;
+    font-size: 18px;
+    background-color: #fff;
+    height: 50px;
+    width: 200px;
+    border: solid 2px #f82370;
+    border-radius: 30px;
+    color: #fa045e;
+    cursor: pointer;
+}
+.call-me:hover {
+    background-color: #fa0891;
+    color: #fff;
+    transition: 0.7s;
+}
+.header-wrapper {
+    padding-top: 25px;
+}
+.left-menu ul li {
+    display: inline-block;
+    padding-right: 15px;
+    font-size: 16px;
+}
+.menu {
+    display: none;
+    cursor: pointer;
+}
+.menu__button span {
+    display: block;
+    height: 5px;
+    width: 45px;
+    background-image: linear-gradient(13deg, #ff8f5a 0%, #ff2f96 99%, #ff2f96 100%);
+}
+.menu__button span:nth-child(2n) {
+    margin: 7px 0;
+}
+.tel {
+    font-size: 25px;
+    line-height: 54px;
+}
+.tel a:hover {
+    color: #fc557c;
+}
+.right-menu ul {
+    padding-right: 15px;
+    font-size: 25px;
+    font-weight: 700;
+}
+.left-menu ul li:hover, .slide-menu li:hover {
+    color: #f53f4f;
+    text-decoration: underline #fc557c;
+}
+.right-menu {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.right-menu ul, .right-menu form {
+    display: inline-block;
+}
+.call button {
+    border: solid 1px #f82370;
+    background-color: #fff;
+    color: #f53f4f;
+    font-size: 16px;
+    width: 205px;
+    height: 45px;
+    cursor: pointer;
+    transition: background-color 0.5s, border-radius 0.5s;
+}
+.call button:hover {
+    background-color: #fa0891;
+    color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 15px 1px #f2652280;
+    transition: 0.7s;
+}
+.call__mob button {
+    font-family: FontAwesome;
+    display: none;
+    width: 35px;
+    height: 35px;
+    border: 1px solid #fa0891;
+    border-radius: 50%;
+    background-color: #fff;
+}
+.fa-phone {
+    color: #fa0891;
+}
+.slide-menu {
+    display: none;
+}

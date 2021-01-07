@@ -1,0 +1,228 @@
+@media screen and (max-width:1700px) {
+    .ellipse {
+        width: 678px;
+        height: 524px;
+    }
+    .bio-container img {
+        right: 200px;
+    }
+    .bio h1 {
+        font-size: 62px;
+    }
+}
+@media screen and (max-width:1620px) {
+    .flying-elements2 {
+        font-size: 30px;
+        font-weight: 400;
+    }
+    .flying-elements2__element1 {
+        top: 10px;
+    }
+    .flying-elements2__element2 {
+        display: none;
+    }
+    .flying-elements2__element3 {
+        top: 280px;
+    }
+    .flying-elements2__element4 {
+        right: 700px;
+    }
+    .flying-elements2__element5 {
+        display: none;
+    }
+}
+@media screen and (max-width:1470px) {
+    .flying-elements {
+        font-size: 30px;
+    }
+    .elem2 {
+        top: 70%;
+        left: 16%;
+    }
+    .elem3 {
+        top: 60%;
+        left: 38%;
+    }
+    .elem4 {
+        top: 13%;
+        left: 47%;
+    }
+    .elem5 {
+        top: 85%;
+        left: 7%;
+    }
+}
+
+@media screen and (max-width:1200px) {
+    .fixed-container {
+        max-width: 950px;
+        padding: 0 10px;
+    }
+    .left-menu ul {
+        display: none;
+    }
+    .menu {
+        display: block;
+    }
+    .left-menu ul li{
+        display: block;
+        line-height: 30px;
+    }
+    .bio h1 {
+        font-size: 54px;
+    }
+    .bio p {
+        font-size: 20px;
+    }
+    .ellipse {
+        width: 565px;
+        height: 436px;
+    }
+    .bio-container img {
+        right: 50px;
+    }
+    .serv-list li {
+        flex-basis: 40%;
+    }
+    .serv-list__item-1, .serv-list__item-2 {
+        margin-bottom: 50px;
+    }
+    .serv-list span {
+        max-width: 270px;
+    }
+    .serv-list {
+        justify-content: space-around;
+    }
+    
+}
+@media screen and (max-width:1020px) {
+    .special-container {
+        max-width: 100%;
+        padding: 0 20px;
+    }
+    .bio h1 {
+        font-size: 45px;
+    }
+    .bio p {
+        font-size: 18px;
+    }
+    .ellipse {
+        width: 565px;
+        height: 436px;
+    }
+    .bio-container img {
+        right: 10px;
+    }
+}
+@media screen and (max-width:990px) {
+    .flying-elements2 {
+        display: none;
+    }
+}
+@media screen and (min-width:820px) {
+    .call-back-2 {
+        margin-top: 2%;
+    }
+    .call-back {
+        margin-top: 6%;
+    }
+}
+@media screen and (max-width:840px) {
+    .elem2 {
+        top: 17%;
+        left: 13%;
+    }
+    .elem3 {
+        top: -11%;
+        left: 30%;
+    }
+    .elem4 {
+        top: 2%;
+        left: 75%;
+    }
+    .elem5 {
+        top: 40%;
+        left: 16%;
+    }
+    .bio-container {
+        flex-direction: column;
+    }
+    .ellipse {
+        bottom: 230px;
+        width: 434px;
+        height: 335px;
+    }
+    .bio-container img {
+        bottom: 230px;
+        max-height: 70%;
+        right: 100px;
+    }
+    .bio-txt {
+        text-align: center;
+    }
+    .bio {
+        padding-top: 50px;
+    }
+}
+@media screen and (max-width:784px) {
+    .fixed-container {
+        max-width: 100%;
+        padding: 0 20px;
+    }
+    .services h2, .my-works h2 {
+        font-size: 40px;
+    }
+    .footer {
+        flex-direction: column;
+    }
+    header .call button {
+        display: none;
+    }
+    .call__mob button {
+        display: block;
+    }
+    .special-container {
+        padding: 40px 20px;
+    }
+}
+@media screen and (max-width:560px) {
+    .tel {
+        font-size: 18px;
+    }
+    .bio h1 {
+        font-size: 35px;
+        line-height: 60px;
+    }
+    .serv-list li {
+        flex-basis: 80%;
+        margin-bottom: 50px;
+    }
+    .serv-list li:last-child {
+        margin-bottom: 0;
+    }
+    .descriptions-block h3 {
+        font-size: 28px;
+        line-height: 50px;
+    }.descriptions-block p {
+        font-size: 16px;
+    }
+    .services h2, .my-works h2 {
+        font-size: 36px;
+        margin-bottom: 49px;
+    }    
+    .serv-list span, .works_list span {
+        font-size: 16px;
+    }
+}
+@media screen and (max-width:395px) {
+    .bio h1 {
+        font-size: 30px;
+        line-height: 60px;
+    }
+    .bio p {
+        font-size: 14px;
+    }
+    .bio-container img {
+        right: 10px;
+    }
+}

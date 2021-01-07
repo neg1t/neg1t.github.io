@@ -1,0 +1,78 @@
+.footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+    margin-bottom: 50px;
+}
+.footer__column3 form {
+    margin-bottom: 15px;
+}
+.footer__column1 {
+    font-size: 18px;
+    line-height: 40px;
+    color: #8993ad;
+}
+
+.footer__column1 li:hover {
+    color: #f53f4f;
+    text-decoration: underline #fc557c;
+}
+.telephone span, .email span {
+    font-size: 20px;
+    font-family: FontAwesome;
+    color: #fa0891;
+}
+
+.telephone a, .email a {
+    padding-left: 20px;
+    font-weight: 700;
+    font-size: 20px;
+}
+.telephone a:hover, .email a:hover  {
+    color: #fc557c;
+}
+.footer__column3 {
+    display: flex;
+    flex-direction: column;
+}
+.snw {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: flex-end;
+    align-content: center;
+}
+.snw a {
+    display: block;
+    width: 35px;
+	height: 35px;
+}
+.snw li {
+    margin-right: 5px;
+}
+.footer-info {
+    height: 80px;
+    background-color: #31293c;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.footer-info span {
+    color: #fff;
+    font-size: 16px;
+}
+.icon-svg {
+    display: block;
+    width: 30px;
+    height: 30px;
+    fill: #b2b9ca;
+}
+.icon-svg:hover {
+    fill: #fa0891;
+}
+.vk {
+    width: 35px;
+	height: 45px;
+}
